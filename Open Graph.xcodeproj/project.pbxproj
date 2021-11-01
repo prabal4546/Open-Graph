@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91C987AB27305EBC007DB2CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C987AA27305EBC007DB2CE /* AppDelegate.swift */; };
+		91C987AD27305EBC007DB2CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C987AC27305EBC007DB2CE /* SceneDelegate.swift */; };
+		91C987B027305EBC007DB2CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C987AE27305EBC007DB2CE /* LaunchScreen.storyboard */; };
+		91C987B327305EBC007DB2CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C987B127305EBC007DB2CE /* Main.storyboard */; };
+		91C987BC27305EBC007DB2CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C987BB27305EBC007DB2CE /* AppDelegate.swift */; };
+		91C987BF27305EBC007DB2CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C987BD27305EBC007DB2CE /* Main.storyboard */; };
+		91C987C627305EBC007DB2CE /* Open Graph Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91C987C527305EBC007DB2CE /* Open Graph Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91C987D027305EBC007DB2CE /* Open Graph Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91C987CF27305EBC007DB2CE /* Open Graph Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91C987D627305EBC007DB2CE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879127305EB7007DB2CE /* Main.html */; };
+		91C987D727305EBC007DB2CE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879127305EB7007DB2CE /* Main.html */; };
+		91C987D827305EBC007DB2CE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879327305EB7007DB2CE /* Icon.png */; };
+		91C987D927305EBC007DB2CE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879327305EB7007DB2CE /* Icon.png */; };
+		91C987DA27305EBC007DB2CE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879427305EB7007DB2CE /* Style.css */; };
+		91C987DB27305EBC007DB2CE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879427305EB7007DB2CE /* Style.css */; };
+		91C987DC27305EBC007DB2CE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879527305EB7007DB2CE /* Script.js */; };
+		91C987DD27305EBC007DB2CE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879527305EB7007DB2CE /* Script.js */; };
+		91C987DE27305EBC007DB2CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C9879627305EB7007DB2CE /* ViewController.swift */; };
+		91C987DF27305EBC007DB2CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C9879627305EB7007DB2CE /* ViewController.swift */; };
+		91C987E027305EBC007DB2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879727305EBB007DB2CE /* Assets.xcassets */; };
+		91C987E127305EBC007DB2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879727305EBB007DB2CE /* Assets.xcassets */; };
+		91C987E227305EBC007DB2CE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C9879927305EBB007DB2CE /* SafariWebExtensionHandler.swift */; };
+		91C987E327305EBC007DB2CE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C9879927305EBB007DB2CE /* SafariWebExtensionHandler.swift */; };
+		91C987E427305EBC007DB2CE /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879B27305EBB007DB2CE /* _locales */; };
+		91C987E527305EBC007DB2CE /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879B27305EBB007DB2CE /* _locales */; };
+		91C987E627305EBC007DB2CE /* images in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879C27305EBB007DB2CE /* images */; };
+		91C987E727305EBC007DB2CE /* images in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879C27305EBB007DB2CE /* images */; };
+		91C987E827305EBC007DB2CE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879D27305EBB007DB2CE /* manifest.json */; };
+		91C987E927305EBC007DB2CE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879D27305EBB007DB2CE /* manifest.json */; };
+		91C987EA27305EBC007DB2CE /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879E27305EBB007DB2CE /* background.js */; };
+		91C987EB27305EBC007DB2CE /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879E27305EBB007DB2CE /* background.js */; };
+		91C987EC27305EBC007DB2CE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879F27305EBB007DB2CE /* content.js */; };
+		91C987ED27305EBC007DB2CE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 91C9879F27305EBB007DB2CE /* content.js */; };
+		91C987EE27305EBC007DB2CE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 91C987A027305EBB007DB2CE /* popup.html */; };
+		91C987EF27305EBC007DB2CE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 91C987A027305EBB007DB2CE /* popup.html */; };
+		91C987F027305EBC007DB2CE /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 91C987A127305EBB007DB2CE /* popup.css */; };
+		91C987F127305EBC007DB2CE /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 91C987A127305EBB007DB2CE /* popup.css */; };
+		91C987F227305EBC007DB2CE /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 91C987A227305EBB007DB2CE /* popup.js */; };
+		91C987F327305EBC007DB2CE /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 91C987A227305EBB007DB2CE /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91C987C727305EBC007DB2CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91C9878B27305EB6007DB2CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91C987C427305EBC007DB2CE;
+			remoteInfo = "Open Graph Extension (iOS)";
+		};
+		91C987D127305EBC007DB2CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91C9878B27305EB6007DB2CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91C987CE27305EBC007DB2CE;
+			remoteInfo = "Open Graph Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91C987F927305EBC007DB2CE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				91C987C627305EBC007DB2CE /* Open Graph Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C9880027305EBC007DB2CE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				91C987D027305EBC007DB2CE /* Open Graph Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91C9879227305EB7007DB2CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		91C9879327305EB7007DB2CE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		91C9879427305EB7007DB2CE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		91C9879527305EB7007DB2CE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		91C9879627305EB7007DB2CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91C9879727305EBB007DB2CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91C9879927305EBB007DB2CE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		91C9879B27305EBB007DB2CE /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		91C9879C27305EBB007DB2CE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		91C9879D27305EBB007DB2CE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		91C9879E27305EBB007DB2CE /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		91C9879F27305EBB007DB2CE /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		91C987A027305EBB007DB2CE /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		91C987A127305EBB007DB2CE /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		91C987A227305EBB007DB2CE /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		91C987A727305EBC007DB2CE /* Open Graph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Graph.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C987AA27305EBC007DB2CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91C987AC27305EBC007DB2CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91C987AF27305EBC007DB2CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91C987B227305EBC007DB2CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91C987B427305EBC007DB2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C987B927305EBC007DB2CE /* Open Graph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Graph.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C987BB27305EBC007DB2CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91C987BE27305EBC007DB2CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91C987C027305EBC007DB2CE /* Open Graph.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Open Graph.entitlements"; sourceTree = "<group>"; };
+		91C987C527305EBC007DB2CE /* Open Graph Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Open Graph Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C987CA27305EBC007DB2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C987CF27305EBC007DB2CE /* Open Graph Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Open Graph Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C987D427305EBC007DB2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C987D527305EBC007DB2CE /* Open Graph.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Open Graph.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91C987A427305EBC007DB2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C987B627305EBC007DB2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C987C227305EBC007DB2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C987CC27305EBC007DB2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91C9878A27305EB6007DB2CE = {
+			isa = PBXGroup;
+			children = (
+				91C9878F27305EB7007DB2CE /* Shared (App) */,
+				91C9879827305EBB007DB2CE /* Shared (Extension) */,
+				91C987A927305EBC007DB2CE /* iOS (App) */,
+				91C987BA27305EBC007DB2CE /* macOS (App) */,
+				91C987C927305EBC007DB2CE /* iOS (Extension) */,
+				91C987D327305EBC007DB2CE /* macOS (Extension) */,
+				91C987A827305EBC007DB2CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91C9878F27305EB7007DB2CE /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				91C9879627305EB7007DB2CE /* ViewController.swift */,
+				91C9879727305EBB007DB2CE /* Assets.xcassets */,
+				91C9879027305EB7007DB2CE /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		91C9879027305EB7007DB2CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91C9879127305EB7007DB2CE /* Main.html */,
+				91C9879327305EB7007DB2CE /* Icon.png */,
+				91C9879427305EB7007DB2CE /* Style.css */,
+				91C9879527305EB7007DB2CE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		91C9879827305EBB007DB2CE /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				91C9879927305EBB007DB2CE /* SafariWebExtensionHandler.swift */,
+				91C9879A27305EBB007DB2CE /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		91C9879A27305EBB007DB2CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91C9879B27305EBB007DB2CE /* _locales */,
+				91C9879C27305EBB007DB2CE /* images */,
+				91C9879D27305EBB007DB2CE /* manifest.json */,
+				91C9879E27305EBB007DB2CE /* background.js */,
+				91C9879F27305EBB007DB2CE /* content.js */,
+				91C987A027305EBB007DB2CE /* popup.html */,
+				91C987A127305EBB007DB2CE /* popup.css */,
+				91C987A227305EBB007DB2CE /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		91C987A827305EBC007DB2CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91C987A727305EBC007DB2CE /* Open Graph.app */,
+				91C987B927305EBC007DB2CE /* Open Graph.app */,
+				91C987C527305EBC007DB2CE /* Open Graph Extension.appex */,
+				91C987CF27305EBC007DB2CE /* Open Graph Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91C987A927305EBC007DB2CE /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				91C987AA27305EBC007DB2CE /* AppDelegate.swift */,
+				91C987AC27305EBC007DB2CE /* SceneDelegate.swift */,
+				91C987AE27305EBC007DB2CE /* LaunchScreen.storyboard */,
+				91C987B127305EBC007DB2CE /* Main.storyboard */,
+				91C987B427305EBC007DB2CE /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		91C987BA27305EBC007DB2CE /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				91C987BB27305EBC007DB2CE /* AppDelegate.swift */,
+				91C987BD27305EBC007DB2CE /* Main.storyboard */,
+				91C987C027305EBC007DB2CE /* Open Graph.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		91C987C927305EBC007DB2CE /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				91C987CA27305EBC007DB2CE /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		91C987D327305EBC007DB2CE /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				91C987D427305EBC007DB2CE /* Info.plist */,
+				91C987D527305EBC007DB2CE /* Open Graph.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91C987A627305EBC007DB2CE /* Open Graph (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C987FA27305EBC007DB2CE /* Build configuration list for PBXNativeTarget "Open Graph (iOS)" */;
+			buildPhases = (
+				91C987A327305EBC007DB2CE /* Sources */,
+				91C987A427305EBC007DB2CE /* Frameworks */,
+				91C987A527305EBC007DB2CE /* Resources */,
+				91C987F927305EBC007DB2CE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91C987C827305EBC007DB2CE /* PBXTargetDependency */,
+			);
+			name = "Open Graph (iOS)";
+			productName = "Open Graph (iOS)";
+			productReference = 91C987A727305EBC007DB2CE /* Open Graph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91C987B827305EBC007DB2CE /* Open Graph (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C9880127305EBC007DB2CE /* Build configuration list for PBXNativeTarget "Open Graph (macOS)" */;
+			buildPhases = (
+				91C987B527305EBC007DB2CE /* Sources */,
+				91C987B627305EBC007DB2CE /* Frameworks */,
+				91C987B727305EBC007DB2CE /* Resources */,
+				91C9880027305EBC007DB2CE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91C987D227305EBC007DB2CE /* PBXTargetDependency */,
+			);
+			name = "Open Graph (macOS)";
+			productName = "Open Graph (macOS)";
+			productReference = 91C987B927305EBC007DB2CE /* Open Graph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91C987C427305EBC007DB2CE /* Open Graph Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C987F627305EBC007DB2CE /* Build configuration list for PBXNativeTarget "Open Graph Extension (iOS)" */;
+			buildPhases = (
+				91C987C127305EBC007DB2CE /* Sources */,
+				91C987C227305EBC007DB2CE /* Frameworks */,
+				91C987C327305EBC007DB2CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open Graph Extension (iOS)";
+			productName = "Open Graph Extension (iOS)";
+			productReference = 91C987C527305EBC007DB2CE /* Open Graph Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		91C987CE27305EBC007DB2CE /* Open Graph Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C987FD27305EBC007DB2CE /* Build configuration list for PBXNativeTarget "Open Graph Extension (macOS)" */;
+			buildPhases = (
+				91C987CB27305EBC007DB2CE /* Sources */,
+				91C987CC27305EBC007DB2CE /* Frameworks */,
+				91C987CD27305EBC007DB2CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open Graph Extension (macOS)";
+			productName = "Open Graph Extension (macOS)";
+			productReference = 91C987CF27305EBC007DB2CE /* Open Graph Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91C9878B27305EB6007DB2CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					91C987A627305EBC007DB2CE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					91C987B827305EBC007DB2CE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					91C987C427305EBC007DB2CE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					91C987CE27305EBC007DB2CE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 91C9878E27305EB6007DB2CE /* Build configuration list for PBXProject "Open Graph" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91C9878A27305EB6007DB2CE;
+			productRefGroup = 91C987A827305EBC007DB2CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91C987A627305EBC007DB2CE /* Open Graph (iOS) */,
+				91C987B827305EBC007DB2CE /* Open Graph (macOS) */,
+				91C987C427305EBC007DB2CE /* Open Graph Extension (iOS) */,
+				91C987CE27305EBC007DB2CE /* Open Graph Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91C987A527305EBC007DB2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C987D827305EBC007DB2CE /* Icon.png in Resources */,
+				91C987B027305EBC007DB2CE /* LaunchScreen.storyboard in Resources */,
+				91C987D627305EBC007DB2CE /* Main.html in Resources */,
+				91C987DC27305EBC007DB2CE /* Script.js in Resources */,
+				91C987E027305EBC007DB2CE /* Assets.xcassets in Resources */,
+				91C987B327305EBC007DB2CE /* Main.storyboard in Resources */,
+				91C987DA27305EBC007DB2CE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C987B727305EBC007DB2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C987D927305EBC007DB2CE /* Icon.png in Resources */,
+				91C987DB27305EBC007DB2CE /* Style.css in Resources */,
+				91C987BF27305EBC007DB2CE /* Main.storyboard in Resources */,
+				91C987DD27305EBC007DB2CE /* Script.js in Resources */,
+				91C987E127305EBC007DB2CE /* Assets.xcassets in Resources */,
+				91C987D727305EBC007DB2CE /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C987C327305EBC007DB2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C987EA27305EBC007DB2CE /* background.js in Resources */,
+				91C987F027305EBC007DB2CE /* popup.css in Resources */,
+				91C987EE27305EBC007DB2CE /* popup.html in Resources */,
+				91C987E627305EBC007DB2CE /* images in Resources */,
+				91C987E827305EBC007DB2CE /* manifest.json in Resources */,
+				91C987E427305EBC007DB2CE /* _locales in Resources */,
+				91C987EC27305EBC007DB2CE /* content.js in Resources */,
+				91C987F227305EBC007DB2CE /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C987CD27305EBC007DB2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C987EB27305EBC007DB2CE /* background.js in Resources */,
+				91C987F127305EBC007DB2CE /* popup.css in Resources */,
+				91C987EF27305EBC007DB2CE /* popup.html in Resources */,
+				91C987E727305EBC007DB2CE /* images in Resources */,
+				91C987E927305EBC007DB2CE /* manifest.json in Resources */,
+				91C987E527305EBC007DB2CE /* _locales in Resources */,
+				91C987ED27305EBC007DB2CE /* content.js in Resources */,
+				91C987F327305EBC007DB2CE /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91C987A327305EBC007DB2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C987DE27305EBC007DB2CE /* ViewController.swift in Sources */,
+				91C987AB27305EBC007DB2CE /* AppDelegate.swift in Sources */,
+				91C987AD27305EBC007DB2CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C987B527305EBC007DB2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C987DF27305EBC007DB2CE /* ViewController.swift in Sources */,
+				91C987BC27305EBC007DB2CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C987C127305EBC007DB2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C987E227305EBC007DB2CE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C987CB27305EBC007DB2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C987E327305EBC007DB2CE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91C987C827305EBC007DB2CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91C987C427305EBC007DB2CE /* Open Graph Extension (iOS) */;
+			targetProxy = 91C987C727305EBC007DB2CE /* PBXContainerItemProxy */;
+		};
+		91C987D227305EBC007DB2CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91C987CE27305EBC007DB2CE /* Open Graph Extension (macOS) */;
+			targetProxy = 91C987D127305EBC007DB2CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91C9879127305EB7007DB2CE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C9879227305EB7007DB2CE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		91C987AE27305EBC007DB2CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C987AF27305EBC007DB2CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		91C987B127305EBC007DB2CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C987B227305EBC007DB2CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91C987BD27305EBC007DB2CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C987BE27305EBC007DB2CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91C987F427305EBC007DB2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91C987F527305EBC007DB2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		91C987F727305EBC007DB2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U23VWM3L5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Graph Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabaljitwalia.Open-Graph.Extension";
+				PRODUCT_NAME = "Open Graph Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91C987F827305EBC007DB2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U23VWM3L5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Graph Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabaljitwalia.Open-Graph.Extension";
+				PRODUCT_NAME = "Open Graph Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91C987FB27305EBC007DB2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U23VWM3L5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Graph";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabaljitwalia.Open-Graph";
+				PRODUCT_NAME = "Open Graph";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91C987FC27305EBC007DB2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U23VWM3L5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Graph";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabaljitwalia.Open-Graph";
+				PRODUCT_NAME = "Open Graph";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91C987FE27305EBC007DB2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Open Graph.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U23VWM3L5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Graph Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabaljitwalia.Open-Graph.Extension";
+				PRODUCT_NAME = "Open Graph Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91C987FF27305EBC007DB2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Open Graph.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U23VWM3L5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Graph Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabaljitwalia.Open-Graph.Extension";
+				PRODUCT_NAME = "Open Graph Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91C9880227305EBC007DB2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Open Graph.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U23VWM3L5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Graph";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabaljitwalia.Open-Graph";
+				PRODUCT_NAME = "Open Graph";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91C9880327305EBC007DB2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Open Graph.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U23VWM3L5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Open Graph";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prabaljitwalia.Open-Graph";
+				PRODUCT_NAME = "Open Graph";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91C9878E27305EB6007DB2CE /* Build configuration list for PBXProject "Open Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C987F427305EBC007DB2CE /* Debug */,
+				91C987F527305EBC007DB2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C987F627305EBC007DB2CE /* Build configuration list for PBXNativeTarget "Open Graph Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C987F727305EBC007DB2CE /* Debug */,
+				91C987F827305EBC007DB2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C987FA27305EBC007DB2CE /* Build configuration list for PBXNativeTarget "Open Graph (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C987FB27305EBC007DB2CE /* Debug */,
+				91C987FC27305EBC007DB2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C987FD27305EBC007DB2CE /* Build configuration list for PBXNativeTarget "Open Graph Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C987FE27305EBC007DB2CE /* Debug */,
+				91C987FF27305EBC007DB2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C9880127305EBC007DB2CE /* Build configuration list for PBXNativeTarget "Open Graph (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C9880227305EBC007DB2CE /* Debug */,
+				91C9880327305EBC007DB2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91C9878B27305EB6007DB2CE /* Project object */;
+}
